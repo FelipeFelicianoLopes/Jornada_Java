@@ -1,0 +1,13 @@
+        v.setValor(valorTotal);
+        v.getQuantidadeIngressso();
+        v.getIdade();
+        v.getTipo();
+
+
+
+
+    public ArrayList<Integer> getListTipo() {
+        return this.listTipo;
+    }
+    public void setListQuantIngresso()
+    {this.listQuantIngresso = listQuantIngresso;}
