@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -6,23 +7,16 @@ public class Main {
         boolean flag = true;
         while (flag) {
             b.executar(sc);
-            System.out.println("deseja adicionar mais clientes? (s/n)");
+            System.out.println("Deseja adicionar mais clientes? (s/n)");
             String op = sc.nextLine();
             if (op.equals("s")) {
                 flag = true;
-            }
-            else if (op.equals("n")) {
+            } else if (op.equals("n")) {
                 flag = false;
-            }
-            else{
-                System.out.println("Opcao invalida!");
+            } else {
+                System.out.println("Opção inválida!");
             }
         }
-
-
-
-
         sc.close();
     }
 }
-
