@@ -9,11 +9,11 @@ public class Veiculo {
     }
 
     public void exibir() {
-        System.out.printf("Placa: %s\nMarca: %sPreço: %f" , placa,marca,preco);
-
+        System.out.printf("Placa: %s\nMarca: %s\nPreço: %.2f\n", placa, marca, preco);
     }
+
     public void exibir(double desconto) {
-        System.out.printf("Placa: %s\nMarca: %sPreço: %f" , placa,marca,preco*desconto);
+
+        System.out.printf("Placa: %s\nMarca: %s\nPreço com desconto: %.2f\n", placa, marca, preco * (1 - desconto / 100));
     }
 }
-
